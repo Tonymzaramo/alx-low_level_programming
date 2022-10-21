@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width-device-width, initial-scale=0">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <title>ANTONY INC</title>
+    <link rel="shortcut icon" type="image/x-icon" href="ttlogo.png">
+  </head>
+  <body>
+    <div id="menu-bar">
+      <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+        <ul class="nav" id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+
+    <div class="logo">
+            <img src="logo.png">
+    </div>
+        <div class="cont">
+      <ul>
+        <li> <a href="mailto: antoniogola02@gmail.com"><strong>Gmail</strong> </a></li>
+        <li> <a href="mailto: antoniogola02@gmail.com"><strong>Outlook</strong> </a></li>
+        <li> <strong> +254727357599 </strong> </li>
+      </ul>
+    </div>
+    <script src="style/script.js"></script>
+  </body>
+</html>
